@@ -1,0 +1,125 @@
+h4 {
+  font-size: 3rem !important;
+  line-height: 3.2rem;
+  color: #0d5074;
+  font-family: "Domine", serif;
+}
+
+h6 {
+  font-weight: 700;
+  color: #454040;
+}
+
+h5 {
+  font-weight: 500;
+  color: #0d5074;
+  font-size: 1.75rem !important;
+}
+
+.hero-sec {
+  background-image: url("img/herophoto.webp");
+  background-position: center;
+}
+
+.domine {
+  font-family: "Domine", serif;
+}
+
+.quicksend {
+  font-family: "Quicksand", sans-serif;
+}
+
+p,
+span {
+  font-family: "Quicksand", sans-serif;
+  color: #454040;
+}
+
+.transparent-bg {
+  background-color: rgba(233, 232, 232, 0.72);
+}
+
+.clients {
+  background-color: #ffefdb;
+}
+
+.it-a {
+  grid-area: one;
+}
+
+.it-b {
+  grid-area: two;
+}
+
+.it-c {
+  grid-area: three;
+}
+
+.it-d {
+  grid-area: four;
+}
+
+.companies {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "one two"
+    "three four";
+}
+
+.item1 {
+  grid-area: one;
+}
+
+.item2 {
+  grid-area: two;
+}
+
+.item3 {
+  grid-area: three;
+}
+
+.item4 {
+  grid-area: four;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "one two"
+    "three four";
+}
+
+.ocean-blue {
+  color: #0d5074;
+}
+
+.light-gray {
+  color: #978a8a;
+}
+
+.black {
+  color: #454040;
+}
+
+.right5 {
+  right: 5%;
+}
+
+.translatey-50 {
+  transform: translateY(-50%);
+}
+
+.line {
+  width: 1px;
+  height: 60px;
+  background-color: #454040;
+  border: 1px solid #454040;
+}
+
+.mycontainer {
+  margin-left: 25px;
+  margin-right: 25px;
+}
