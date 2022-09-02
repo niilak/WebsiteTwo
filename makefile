@@ -1,0 +1,3 @@
+deploy:
+	npx surge ./build/
+

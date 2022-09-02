@@ -12,12 +12,12 @@ h4 {
 }
 
 h6 {
-  font-weight: 600;
+  font-weight: 600 !important;
   color: #454040;
 }
 
 h5 {
-  font-weight: 500;
+  font-weight: 500 !important;
   color: #0d5074;
   font-size: 1.5rem !important;
 }
@@ -160,6 +160,13 @@ span {
   gap: 4rem 1rem;
 }
 
+.footer-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  gap: 4rem 1rem;
+}
+
 .product-box {
   min-width: 16rem;
   max-width: 25rem;
@@ -249,20 +256,68 @@ span {
       "one two"
       "three four";
   }
+
+  .companies-grid {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .footer-grid {
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+  }
 }
 
 @media screen and (min-width: 1028px) {
+  .mycontainer {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  h2 {
+    font-size: 3rem !important;
+    line-height: 4.5rem;
+  }
+
+  .mycontainer {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
   .allproducts-grid {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     gap: 4rem 1rem;
   }
+
+  .grid-1 {
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "one two three four";
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .mycontainer {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  h2 {
+    font-size: 3.25rem !important;
+  }
+
   .allproducts-grid {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     gap: 4rem 1rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .mycontainer {
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 }
